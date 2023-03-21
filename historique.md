@@ -33,6 +33,17 @@
 
 ---
 
+### Étapes pour add, commit, et push
+
+  #### Add
+  - `git add -all` ou `git add .`
+
+  #### Commit
+    - `git add -all` ou `git add .`
+
+
+---
+
 
 
 - git checkout exemple:e8217af
