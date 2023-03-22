@@ -23,6 +23,7 @@
 
 - Pour changer le nom d'une branche
   - `git branch -m «nom nouvelle branche»`
+  - `git branch -m main` // change le nom de la branche courante pour main
 
 - Pour créer une nouvelle branche
   - `git branch «nom nouvelle branche»`
@@ -30,6 +31,8 @@
 - Pour changer de branche
   - `git checkout «nom branche»`
   - On ne peut pas changer de branche si la branche courante n'a pas été «commit»(valider)
+  - `git checkout « id du commit »`
+  - `git checkout « étiquette(label) du commit »`
 
 ---
 
