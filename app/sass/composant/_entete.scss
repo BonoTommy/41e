@@ -31,7 +31,12 @@
     display: flex;
     flex-direction: column;
     align-items: end;
+    position: absolute;
+    top: 2.5rem;
+    transform: translateX(600px);
+    transition: transform .25s;
     @media screen and (min-width: 580px) {
+        position: static;
         flex-direction: row;
         align-items: center;
         a {
@@ -39,6 +44,10 @@
             padding: 2px 5px;
         } 
     }
+}
+
+#chkBurger:checked ~ .menu {
+    transform: translateX(0);
 }
 
 #chkBurger {

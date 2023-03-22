@@ -547,9 +547,14 @@ section {
   display: flex;
   flex-direction: column;
   align-items: end;
+  position: absolute;
+  top: 2.5rem;
+  transform: translateX(600px);
+  transition: transform 0.25s;
 }
 @media screen and (min-width: 580px) {
   .menu {
+    position: static;
     flex-direction: row;
     align-items: center;
   }
@@ -557,6 +562,10 @@ section {
     display: block;
     padding: 2px 5px;
   }
+}
+
+#chkBurger:checked ~ .menu {
+  transform: translateX(0);
 }
 
 #chkBurger {
