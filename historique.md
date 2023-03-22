@@ -43,10 +43,14 @@
 
   #### Commit
     - `git add -all` ou `git add .`
-
-
+    - 
 ---
 
+### Serveur distant 
+- Pour définir un alias identifiant le serveur distant
+    - `git remote add 41e https://github.com/BonoTommy/41e.git`
+    - `git remote -v` // Permet de voir la liste des alias de serveur distant
+    - `git push 41e main` // Permet de pousser mon dernier commit vers la branche main du dépôt distant 41e
 
 
 - git checkout exemple:e8217af
