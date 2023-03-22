@@ -508,4 +508,63 @@ section {
 
 #pied-page {
   background-color: rgb(27, 176, 214);
+}
+
+/*--------------------.entete*/
+.entete {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+/*--------------------------.logo*/
+.logo {
+  outline: 1px dotted blue;
+}
+
+/*------------------------.menu-recherche */
+.menu__recherche {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  outline: 1px dotted #aaa;
+}
+@media screen and (min-width: 900px) {
+  .menu__recherche {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+/*-------------------------------.recherche_burger*/
+.recherche_burger {
+  display: flex;
+}
+
+/* ------------------------------.menu */
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+@media screen and (min-width: 580px) {
+  .menu {
+    flex-direction: row;
+    align-items: center;
+  }
+  .menu a {
+    display: block;
+    padding: 2px 5px;
+  }
+}
+
+#chkBurger {
+  display: none;
+}
+
+.recherche label {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
 }/*# sourceMappingURL=style.css.map */

@@ -44,6 +44,12 @@
 
 ---
 
+### Pour créer une étiquette
+
+- `git tag v1.0.0` // Création de l'étiquette v1.0.0
+- `git tag` // permet d'afficher l'ensemble des tags (étiquettes)
+- `git checkout v1.0.0` // pour se déplacer dans le commit v1.0.0 (déplace le pointeur head)
+
 ### Étapes pour add, commit, et push
 
   #### Add
